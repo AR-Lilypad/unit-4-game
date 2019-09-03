@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%; 
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/images/crystalizedGlass.jpg");
+    font-family: 'ZCOOL XiaoWei', serif;
+     }
+
+.titleBox {
+    float: right;
+    clear: both;
+    width: 400px;
+    height: 50px;
+    border: 2px solid white;
+    margin: 0 200px 0 0;
+    padding-top: 3px;
+    background-color: #7c7c7c;
+    opacity: .9;
+    text-align: center;
+}
+
+.instructionBox {
+    float: right;
+    clear: both;
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    margin: 25px 200px 0 0;
+    padding: 10px 20px 10px 10px;
+    background-color: #7c7c7c;
+    opacity: .9;
+}
+
+#gameBoardRanNumb {
+position: relative;
+clear: both;
+width: 150px;
+height: 150px;
+margin: 60px 0 0 40%;
+border-radius: 75%;
+background-color: goldenrod;
+color: #000;
+
+}
+#winsLossesAlertBox {
+    width: 215px;
+    margin: 4% 0 0 39%;
+    padding-top: 10%;
+    background-color: #038dee;
+    color: #000;
+        }
+
+#crystal1, #crystal2, #crystal3, #crystal4 {
+    float: left;
+    clear: right;
+    width: 150px;
+    height: 150px;
+    margin: -120px 57px 25px 122px;
+}
+
+.crystalBox:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#playerScore {
+    /* float: right;
+    clear: both; */
+    width: 600px;
+    height: 50px;
+    margin: 0 0 0 30%;
+    padding-top: 3px;
+    background-color: #3cb376;
+    
+}
+
+h2 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: .555px;
+    color: #fff;
+}
