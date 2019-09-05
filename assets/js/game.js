@@ -26,21 +26,25 @@ function startGame() {
 
     $("#crystal1").on("click", function () {                    // user clicks on crystals 1 through 4 to generate random player numbers
         playerScore += crystal1;
+        $("#playerScore").html("Your crystal score is:   " + playerScore);
         console.log("Player Score: " + playerScore);
     })
     $("#crystal2").on("click", function () {
         playerScore += crystal2;
+        $("#playerScore").html("Your crystal score is:   " + playerScore);
         console.log("Player Score: " + playerScore);
     })
     $("#crystal3").on("click", function () {
         playerScore += crystal3;
+        $("#playerScore").html("Your crystal score is:   " + playerScore);
         console.log("Player Score: " + playerScore);
     })
     $("#crystal4").on("click", function () {
         playerScore += crystal4;
+        $("#playerScore").html("Your crystal score is:   " + playerScore);
         console.log("Player Score: " + playerScore);
     })
-
+function chkNums()
     if (playerScore === computerRandomNum) {                             //player wins
         wins++;
         console.log("player won");
@@ -57,7 +61,7 @@ function startGame() {
     }
 
     if (playerScore > computerRandomNum) {                               //player loses
-        loses++
+        losses++
         console.log("player lost");
         $("#computerRandomNum").html(computerRandomNum);
         playAgain = confirm("Play Again?");
@@ -78,7 +82,6 @@ startGame();
 $("#computerRandomNum").html(computerRandomNum);
 
 // put player score on the html page
-$("#playerScore").html("Your current score is:   " + playerScore);
 
 
 
