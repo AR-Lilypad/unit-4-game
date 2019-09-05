@@ -61,14 +61,25 @@ color: #000;
     height: 215px;
     margin: 4% 0 0 39%;
     padding-top: 7%;
+    padding-left: 10px;
     background-color: #038dee;
     color: #000;
+    font-weight: 700;
         }
+
+#congrats {
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+}        
 
 #crystal1, #crystal2, #crystal3, #crystal4 {
     clear: both;  
-    width: 100px;
     margin: 2% 0 25px 50px;
+}
+
+#crystal1, #crystal2, #crystal3, #crystal4, img {
+    max-width: 75%;
 }
 
  .crystalBox {
