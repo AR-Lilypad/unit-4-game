@@ -59,7 +59,7 @@ function checkScore() {
 
         console.log("player won");
         $("#congrats").html("Congratulation! You won!");
-        $("#wins").append(wins);
+        $("#wins").html(wins);
         startGame();
     }
        
@@ -67,7 +67,7 @@ function checkScore() {
         losses++
         console.log("player lost");
         $("#congrats").html("Oh sorry, you lost!");
-        $("#losses").append(losses);
+        $("#losses").html("Your losses " + losses);
         startGame();
     }
 
