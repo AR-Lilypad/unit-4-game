@@ -16,12 +16,12 @@ var playAgain = false;
 
 // make the random numbers to assign to variables  
 function startGame() {
-    computerRandomNum = Math.floor(Math.random() * 150) + 21;     //random between 20 and 150 (20 because player could potentially lose on first click)
+    computerRandomNum = Math.floor(Math.random() * 120) + 13;     //random between 20 and 150 (20 because player could potentially lose on first click)
     $("#computerRandomNum").html(computerRandomNum);                // put random number in circle on the html page
-    crystal1 = Math.floor(Math.random() * 20) + 1;
-    crystal2 = Math.floor(Math.random() * 20) + 1;
-    crystal3 = Math.floor(Math.random() * 20) + 1;
-    crystal4 = Math.floor(Math.random() * 20) + 1;               //crystal numbers should not be more than 20/21
+    crystal1 = Math.floor(Math.random() * 12) + 1;
+    crystal2 = Math.floor(Math.random() * 12) + 1;
+    crystal3 = Math.floor(Math.random() * 12) + 1;
+    crystal4 = Math.floor(Math.random() * 12) + 1;               //crystal numbers should not be more than 20/21
     playerScore = 0;
     $("#playerScore").html("Your crystals score is:   " + playerScore);
     console.log(computerRandomNum);
