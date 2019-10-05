@@ -76,10 +76,15 @@ color: #000;
 #crystal1, #crystal2, #crystal3, #crystal4 {
     clear: both;  
     margin: 2% 0 25px 50px;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #7c7c7c;
+    opacity: .9;
+
 }
 
 #crystal1, #crystal2, #crystal3, #crystal4, img {
-    max-width: 75%;
+    max-width: 70%;
 }
 
  .crystalBox {
